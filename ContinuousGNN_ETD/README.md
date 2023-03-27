@@ -1,4 +1,4 @@
-# Continuous Graph Neural Networks
+# Implemnetation of matrix ETD on Continuous Graph Neural Networks
 Louis-Pascal A. C. Xhonneux<sup>\*</sup>, Meng Qu<sup>\*</sup>, and Jian Tang  
 [https://arxiv.org/pdf/1912.00967.pdf](https://arxiv.org/pdf/1912.00967.pdf)
 
