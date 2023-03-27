@@ -3,6 +3,7 @@ GNN model used --> Louis-Pascal A. C. Xhonneux<sup>\*</sup>, Meng Qu<sup>\*</sup
 [https://arxiv.org/pdf/1912.00967.pdf](https://arxiv.org/pdf/1912.00967.pdf)
 
 Original unmodified code:
+https://github.com/DeepGraphLearning/ContinuousGNN
 
 
 ## Dependencies
