@@ -8,7 +8,6 @@ The code has been tested under Pytorch 3.6.7 and requires the installation of th
 
  - `pytorch==1.2.0`
  - `numpy==1.17.2`
- - `torchdiffeq==0.0.1`
 
 To run the model use `cd src; python run_cora_wcgnn.py`.
 
