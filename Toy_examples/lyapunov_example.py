@@ -32,11 +32,11 @@ for i, dt in tqdm(enumerate(dt_array)):
     n_steps = round(t_final/dt)
 
     m1_L_1, m1_R_1, m2_1 = ETD1(L, R, dt)
-    m1_L_2 , m1_R_2 , m2_2 , m3_2  = ETD2(L, R, dt)
+    m1_L_2 , m1_R_2 , m2_2 , _ , m4,_  =  ETD2(L, R, dt)
 
     for _ in range(n_steps):
         A_0_1 = m1_L_1 @ A_0_1 @ m1_R_1 + m2_1 @ N
-        A_0_2 = m1_L_2 @ A_0_2 @ m1_R_2 + m2_2 @ N + m3_2 @ comm_NR
+        A_0_2 = m1_L_2 @ A_0_2 @ m1_R_2 + m2_2 @ N + m4 @ comm_NR
 
     error_array_1[i] = np.linalg.norm(A_true-A_0_1)
     error_array_2[i] = np.linalg.norm(A_true-A_0_2)
